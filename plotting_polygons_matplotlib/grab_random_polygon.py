@@ -9,7 +9,7 @@ GDF_DIR = ".\\DSA_geodataframe\\assets\\ne_10m_land.shp"
 
 def rr(_list):
     """Return a random element from a list."""
-    return _list[randint(0, len(_list))]
+    return _list[randint(1, len(_list))-1]
 
 
 def grab_polygon():

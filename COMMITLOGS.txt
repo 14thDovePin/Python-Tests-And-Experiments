@@ -1,3 +1,11 @@
+`plotting_polygons_matplotlib` [0002]
+
+- Fixed `grab_random_polygon.py` indexing out of range.
+- Data structure of polygon's coordinates modified for motplotlib use.
+- Plotted polygon in matplotlib.
+
+
+
 `plotting_polygons_matplotlib` [0001]
 
 - Added new file `grab_random_polygon.py`.
