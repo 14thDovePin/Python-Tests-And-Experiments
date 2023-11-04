@@ -1,0 +1,7 @@
+Initial Commit
+
+- Added the following files:
+  + .gitignore
+  + COMMITLOGS.txt
+  + LICENSE
+  + README.md
