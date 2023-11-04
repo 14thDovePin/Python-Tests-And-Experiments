@@ -1,3 +1,10 @@
+`DSA_geodataframe` [0002]
+
+- Added new file `deconstruct_gdf.py`.
+- Deconstructed the GeoDataFrame into a Polygon Coordinates.
+
+
+
 `DSA_geodataframe` [0001]
 
 - Added the following files from "Natural Earth":
