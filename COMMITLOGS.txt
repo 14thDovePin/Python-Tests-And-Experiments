@@ -1,3 +1,9 @@
+`plotting_polygons_matplotlib` [0001]
+
+- Added new file `grab_random_polygon.py`.
+- Created the function for `grab_random_polygon.py`.
+
+
 Started `plotting_polygons_matplotlib`
 
 - Added the directory and its main file.
