@@ -9,8 +9,18 @@ attribtues.
 """
 
 
+import geopandas as gp
+
+
+# Parent Directory
+PD = '.\\DSA_geodataframe'
+# GeoDataFrame
+GDF_FILE = PD + '\\assets\\ne_10m_land.shp' 
+GDF = gp.read_file(GDF_FILE)
+
+
 def main():
-    pass
+    print(GDF)
 
 
 if __name__ == '__main__':

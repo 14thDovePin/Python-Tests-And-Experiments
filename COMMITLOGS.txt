@@ -1,10 +1,12 @@
-Initial Commit
+`DSA_geodataframe` [0001]
 
-- Added the following files:
-  + .gitignore
-  + COMMITLOGS.txt
-  + LICENSE
-  + README.md
+- Added the following files from "Natural Earth":
+  + `ne_10m_land.cpg`
+  + `ne_10m_land.dbf`
+  + `ne_10m_land.prj`
+  + `ne_10m_land.shp`
+  + `ne_10m_land.shx`
+- Reversed order of `README.md`.
 
 
 
@@ -14,3 +16,13 @@ Started `DSA_geodataframe`.
 - Added the directory and its main file.
 - Added a breif description of this experiment's function as well
   as a starting code block.
+
+
+
+Initial Commit
+
+- Added the following files:
+  + .gitignore
+  + COMMITLOGS.txt
+  + LICENSE
+  + README.md
