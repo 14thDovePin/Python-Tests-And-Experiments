@@ -5,3 +5,12 @@ Initial Commit
   + COMMITLOGS.txt
   + LICENSE
   + README.md
+
+
+
+Started `DSA_geodataframe`.
+
+- Modified `README.md`.
+- Added the directory and its main file.
+- Added a breif description of this experiment's function as well
+  as a starting code block.
