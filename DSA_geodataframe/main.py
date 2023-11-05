@@ -23,7 +23,7 @@ def main():
 
     polygons = []
 
-    # Extract all polygon from dataset.
+    # Extract all polygon from dataset..
     for polygon in gs:
         if type(polygon) is Polygon:
             polygons.append(polygon)
