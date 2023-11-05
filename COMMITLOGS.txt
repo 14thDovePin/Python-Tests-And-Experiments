@@ -1,3 +1,10 @@
+`DSA_geodataframe` [0003]
+
+- Refactored `main.py`.
+- Listed all the polygons from `ne_10m_land.shp`.
+
+
+
 `plotting_polygons_matplotlib` [0002]
 
 - Fixed `grab_random_polygon.py` indexing out of range.
