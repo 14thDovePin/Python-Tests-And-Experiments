@@ -21,17 +21,7 @@ def main():
     gdf = gp.read_file(GDF_DIR)
     gs = gdf['geometry']  # GeoSeries
 
-    polygons = []
-
-    # Extract all polygon from dataset..
-    for polygon in gs:
-        if type(polygon) is Polygon:
-            polygons.append(polygon)
-        elif type(polygon) is MultiPolygon:
-            for i in polygon.geoms:
-                polygons.append(i)
-
-    print(len(polygons))
+    print(gs)
 
 
 if __name__ == '__main__':
