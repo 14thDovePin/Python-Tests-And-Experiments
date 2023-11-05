@@ -9,18 +9,29 @@ attribtues.
 """
 
 
+from shapely import Polygon, MultiPolygon
+
 import geopandas as gp
 
 
-# Parent Directory
-PD = '.\\DSA_geodataframe'
-# GeoDataFrame
-GDF_FILE = PD + '\\assets\\ne_10m_land.shp' 
-GDF = gp.read_file(GDF_FILE)
+GDF_DIR = '.\\DSA_geodataframe\\assets\\ne_10m_land.shp' 
 
 
 def main():
-    print(GDF)
+    gdf = gp.read_file(GDF_DIR)
+    gs = gdf['geometry']  # GeoSeries
+
+    polygons = []
+
+    # Extract all polygon from dataset.
+    for polygon in gs:
+        if type(polygon) is Polygon:
+            polygons.append(polygon)
+        elif type(polygon) is MultiPolygon:
+            for i in polygon.geoms:
+                polygons.append(i)
+
+    print(len(polygons))
 
 
 if __name__ == '__main__':
