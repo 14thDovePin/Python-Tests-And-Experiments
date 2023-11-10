@@ -1,3 +1,11 @@
+Refactored Code
+
+- Fixed relative paths so that every `main.py` could be run from
+  file explorer.
+- Moved links to `LINKS.txt`.
+
+
+
 Started `morphing_polygons`
 
 - Added the directory and its main file.

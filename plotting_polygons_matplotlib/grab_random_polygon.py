@@ -4,7 +4,7 @@ from shapely import Polygon, MultiPolygon
 import geopandas as gp
 
 
-GDF_DIR = ".\\DSA_geodataframe\\assets\\ne_10m_land.shp"
+GDF_DIR = "..\\DSA_geodataframe\\assets\\ne_10m_land.shp"
 
 
 def rr(_list):
