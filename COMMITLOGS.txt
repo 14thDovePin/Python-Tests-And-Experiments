@@ -1,3 +1,15 @@
+`plotting_research_data` [0001]
+
+- Converted `DATA_0.TXT` to `DATA_0.csv`.
+- Added function:
+  + `parse_time`.
+- Plotted temperature and humidity data.
+- Constructed datetime timestamps by using the calculated time for it.
+- Modified xticks using `DateFormatter`.
+- Finalized plot.
+
+
+
 Started `plotting_research_data`
 
 - Added the directory and its main file.
