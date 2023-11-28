@@ -1,3 +1,13 @@
+Started `plotting_research_data`
+
+- Added the directory and its main file.
+- Added file description, function, and purpose.
+- Added file:
+  + `DATA_0.TXT`.
+- Added a basic code block.
+
+
+
 Refactored Code
 
 - Fixed relative paths so that every `main.py` could be run from
